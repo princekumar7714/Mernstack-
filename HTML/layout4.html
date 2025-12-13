@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .header{
+            color: darkblue;
+            background-color: bisque;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: medium;
+            font-style: normal;
+            width: 100%;
+            text-align: center;
+            padding: 3px;
+            border: 1px solid black;
+        }
+        .navbar ul{
+            display: flex;
+            justify-content: space-between;
+            background-color: aqua;
+            height: 60px;
+            width: 100%;
+            list-style: none;
+            padding: 5px;
+            border: 1px solid black;
+
+        }
+        .content{
+            background-color: cadetblue;
+            height: 400px;
+            width: 100%;
+            border: 1px solid rgb(207, 187, 187);
+        }
+        .rside{
+            float: right;
+            background-color: chartreuse;
+            width: 70%;
+            height: 400px;
+            
+        }
+        .lside{
+            float: left;
+            width: 30%;
+            height: 400px;
+            background-color: brown;
+            overflow: scroll;
+        }
+        .footer{
+            color: brown;
+            background-color: coral;
+            height: 50px;
+            width: 100%;
+            text-align: center;
+            padding: 7px;
+            border: 1px solid black;
+        }
+        #intro{
+            text-align: center;
+            font: bold;
+            color: crimson;
+            border: 2px dotted rgb(0, 119, 255);
+        }
+        .para{
+            padding: 5px 0 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Portfolio</h1>
+    </div>
+
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>Age</li>
+            <li>Profile</li>
+            <li>Dasebode</li>
+            <li>Data</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <aside class="rside">
+            <h2 id="intro">My Introduction</h2>
+            <p class="para">“Thank you for giving me the opportunity to introduce myself. My name is [Your Full Name], and I come from [City/Country]. I hold a [Your Degree, e.g., Bachelor's/Master’s] in [Your Major] from [Your University], where I developed a strong foundation in [Relevant Subjects or Skills].”
+
+“Professionally, I have [X years] of experience in [Your Industry/Field], during which I’ve worked on a variety of projects that allowed me to grow both technically and personally. My previous role at [Your Last Company] involved [Briefly describe your main responsibilities and achievements]. One of the projects I’m most proud of was [Describe a specific project or achievement], which not only improved my problem-solving skills but also taught me how to collaborate effectively with cross-functional teams.”
+
+“I’m known for being a highly motivated, detail-oriented, and adaptable professional. I enjoy taking on challenges that push me to learn new things and stretch beyond my comfort zone. I also believe in continuous improvement, and I regularly take courses and seek feedback to grow.”
+
+“Outside of work, I’m passionate about [Mention hobbies or interests briefly—e.g., reading, tech innovation, volunteering, fitness], which I believe help me maintain a balanced lifestyle and bring creativity and discipline into my professional life as well.”
+
+“I’m really excited about the opportunity to join [Company Name] because of [Mention what excites you—e.g., its reputation, innovation, values, or specific projects]. I believe that my skills in [Mention 2–3 relevant skills] and my passion for [Industry or Role] would make me a valuable asset to your team.”
+
+“Once again, thank you for this opportunity. I’m looking forward to discussing how I can contribute to your organization and grow together with your team.”
+
+</p>
+
+        </aside>
+        <aside class="lside">
+            <h2 class="reg">Registration Form</h2>
+            <form action="" method="get">
+                 <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your name" id="name" required>
+        <br><br>
+        <br>
+        <label for="Age">Age:</label>
+        <input type="number" placeholder="Enter your age" id="Age" required>
+        <br><br>
+        <br>
+        <label for="address">Address:</label>
+        <input type="text" placeholder="Enter your address" id="address" required>
+        <br><br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Enter your email" id="email" required>
+        <br><br>
+        <br>
+        <label for="state">state:</label>
+        <input type="text" placeholder="Enter your state name" id="state" required>
+        <br><br>
+         <label for="Date">DOB:</label>
+        <input type="date" placeholder="Enter your DOB" id="data" required>
+        <br><br><br>
+        <label for="time">Time:</label>
+        <input type="time" placeholder="Time" id="time" required>
+        <br><br><br>
+        <label for="color">color:</label>
+        <input type="color" placeholder="color" id="color" required>
+        <br><br><br>
+        <label for="file">File:</label>
+        <input type="text" placeholder="Submit Your File" id="file" required>
+        <br><br><br>
+        <label for="password">password:</label>
+        <input type="password" placeholder="Enter your password" id="password" required>
+        <br>
+        <br>
+        <div id="check">
+           <label for="hobby"><strong>Hobbies :</strong></label>
+        <br><br>
+        <input type="checkbox" id="reading" name="hobby" value="reading" > <label for="reading">Reading</label> <br>
+        <input type="checkbox" id="coding" name="hobby" value="coding" > <label for="coding">Coding</label><br>
+        <input type="checkbox" id="playing" name="hobby" value="playing" > <label for="playing">Playing</label><br>
+        <input type="checkbox" id="watching" name="hobby" value="watching" > <label for="watching">Watching</label><br>
+        <input type="checkbox" id="sleeping" name="hobby" value="sleeping" > <label for="sleeping">Sleeping</label><br>
+        <button type="submit">Submit</button>
+        <br>
+            </form>
+        </aside>
+    </div>
+    <div class="footer">
+        <h2>footer</h2>
+    </div>
+</body>
+</html>

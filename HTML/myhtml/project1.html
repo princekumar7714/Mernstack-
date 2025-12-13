@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+        
+            background-color: bisque;
+            height: 40px;
+            color: blueviolet;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid red;
+        }
+        #head{
+            margin-bottom: 2px;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            background-color: cadetblue;
+            padding: 5px;
+            border: 1px solid black;
+        }
+          .lside{
+            
+             float: left;  
+               width: 80%;  
+              height: 400px;
+               background-color: #f0f8ff;  
+               text-align: center;  
+               overflow: scroll;
+               
+        }
+        .rside{
+             text-align: center;  
+            float: right;  
+            width: 20%;  
+              min-height: 400px;  
+             background-color:  #c1cdcd;  
+             overflow: scroll;
+        }
+       .footer{
+        background-color: burlywood;
+        width: 100%;
+        text-align: center;
+        border: 1px solid black;
+       }
+    </style>
+</head>
+<body>
+    <div>
+    
+         <div class="header">
+            <h1 id="head">Header</h1>
+         </div>
+         <div class="navbar">
+            <a href="">Home</a> 
+            <a href="">login</a>
+            <a href="">detail</a>
+            <a href="">add</a>
+         </div>
+
+          <!-- main -->
+          
+           <div  asidestyle=" min-height: 440px;">
+            <form action="" method="get">
+         <aside class="lside">
+             <h2>personal Info :</h2>
+            <br><br>
+              <label for="Date">DOB:</label>
+        <input type="date" placeholder="Enter your DOB" id="data" required>
+        <br><br><br>
+        <label for="time">Time:</label>
+        <input type="time" placeholder="Time" id="time" required>
+        <br><br><br>
+        <label for="color">color:</label>
+        <input type="color" placeholder="color" id="color" required>
+        <br><br><br>
+        <label for="file">File:</label>
+        <input type="text" placeholder="Submit Your File" id="file" required>
+        <br><br><br>
+        <label for="password">password:</label>
+        <input type="password" placeholder="Enter your password" id="password" required>
+        <br>
+        <br>
+        <div id="check">
+           <label for="hobby"><strong>Hobbies :</strong></label>
+        <br><br>
+        <input type="checkbox" id="reading" name="hobby" value="reading" > <label for="reading">Reading</label> <br>
+        <input type="checkbox" id="coding" name="hobby" value="coding" > <label for="coding">Coding</label><br>
+        <input type="checkbox" id="playing" name="hobby" value="playing" > <label for="playing">Playing</label><br>
+        <input type="checkbox" id="watching" name="hobby" value="watching" > <label for="watching">Watching</label><br>
+        <input type="checkbox" id="sleeping" name="hobby" value="sleeping" > <label for="sleeping">Sleeping</label><br>
+        <br>
+        <button type="submit">Submit</button>
+        <br>
+               
+                </aside>
+                  <aside class="rside"> 
+<ul>
+    <li>home</li>
+    <li>details</li>
+    <li>login</li>
+</ul>
+<br><br>
+<form action="">
+        <input type="text " list="values">
+        <input type="text " list="values">
+        <datalist id="values">
+            <option value="java">java</option>
+            <option value="neet">Neet</option>
+            <option value="js">JS</option>
+            <option value="sql">Sql</option>
+
+        </datalist>
+         <input type="time" list="hours">
+            <datalist id='hours'>
+                <option value="08:00"></option>
+                <option value="10:00"></option>
+                <option value="12:00"></option>
+            </datalist>
+            <br><br>
+            <select name="fruits" id="" >
+                <option value="">Choose a fruit</option>
+                <optgroup label="Languages">
+                    <option value="apple">Apple</option>
+                    <option value="banana">Banana</option>
+                    <option value="orange">Orange</option>
+                    <option value="grapes">Grapes</option>
+                </optgroup>
+                <optgroup label="Fruits" disabled>
+                    <option value="apple">Apple</option>
+                    <option value="banana">Banana</option>
+                    <option value="orange">Orange</option>
+                    <option value="grapes">Grapes</option>
+                </optgroup>
+                <optgroup label="Vegetables">
+                    <option value="potato">Potato</option>
+                    <option value="tomato">Tomato</option>
+                    <option value="carrot">Carrot</option>
+                    <option value="spinach">Spinach</option>
+                </optgroup>
+                <optgroup label="electronics" dir="rtl">
+                        <option value="iphone">Iphone</option>
+                        <option value="samsung">Samsung</option>
+                        <option value="redmi">Redmi</option>
+                        <option value="vivo">Vivo</option>
+                </optgroup>
+            </select>
+</aside>
+            
+           </div>
+                
+         
+         </div>
+           <div class="footer">
+        <p><strong>this is footer</strong></p>
+      </div>
+    
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <style>
+        body {
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* The Box Element */
+        /* .box {
+            width: 200px;
+            height: 200px;
+            background-color: #4CAF50;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            border-radius: 10px;
+            /* Initial 2D Translation */
+            /* transform: translate(50px, 50px);
+            transition: transform 0.6s ease;
+        } */ 
+
+        /* Hover State with Different 2D Translation */
+        /* .box:hover {
+            transform: translate(-50px, -50px);
+            background-color: #2ecc71;
+            cursor: pointer;
+        } */
+           .box {
+            width: 200px;
+            height: 200px;
+            background-color: #4CAF50;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            border-radius: 10px;
+            /* Initial 2D Rotation */
+            transform: rotate(15deg);
+            transition: transform 0.6s ease;
+        }
+
+        /* Hover State with Different 2D Rotation */
+        .box:hover {
+            transform: rotate(-15deg);
+            background-color: #2ecc71;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        2D Box
+    </div>
+</body>
+</html>

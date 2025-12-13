@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>working with html</title>
+    <link rel="shortcut icon" href="images/html loogo.png" type="image/x-icon">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            text-align: center;
+            width: 100%;
+            background-color: cadetblue;
+            height: 50px;
+            color: crimson;
+        }
+        
+            .navbar{
+                
+                padding: 5px;
+            }
+            .navbar li{
+                 list-style: none;  
+              display: inline-block;  
+              padding: 8px;  
+            }
+        
+        .navbar ul{
+            padding: 10px;
+            display: flex;
+             height: 50%;
+             width: 100%;
+            justify-content: space-between;
+            background-color: coral;
+            color: blue;
+            list-style: none;
+           
+        }
+        .container{
+            display: flex;
+            height: 400px;
+            width: 100%;
+            justify-content: center;
+            background-color: rgb(151, 151, 192);
+        }
+        .lside{
+            float: left;
+            background-color: aqua;
+            color: brown;
+            width: 30%;
+            height: 400px;
+        }
+        .rside{
+            text-align: center;
+            float: right;
+            background-color: chocolate;
+            color: rgb(23, 2, 43);
+            width: 70%;
+            height: 400px;
+        }
+        .footer{
+            height: 70px;
+            text-align: center;
+            color: crimson;
+            background-color: rgb(4, 48, 87)
+        }
+    </style>
+</head>
+<body>
+   <div class="header">
+    <h1>my LOGO</h1>
+   </div>
+   <div class="navbar">
+    <ul>
+        <li><a href="#">HOME</a></li>  
+                <li><a href="#">MENU</a></li>  
+                <li><a href="#">CONTACT</a></li>  
+                <li style="float: right;"><a href="#">LOGIN</a></li>  
+                <li style="float: right;"><a href="#">SIGN-UP</a></li>  
+             </ul>
+   </div>
+
+   <div class="container">
+    <aside class="lside">
+        <p>“Good morning, and thank you for the opportunity. My name is [Your Name], and I have a background in [Your Educational Background or Field] with [X years/months] of experience in [Your Industry or Key Skill Area]. In my previous role at [Last Company/Organization], I was responsible for [Briefly describe your key responsibilities or achievements]. I’m particularly skilled in [List 1–3 skills], and I enjoy working on [mention tasks/projects you enjoy]. I’m excited about this opportunity because it aligns with my passion for [mention interest relevant to the role], and I’m eager to contribute my strengths to your team.”</p>
+    </aside>
+
+    <aside class="rside">
+         <form action="">
+<label for="Name">Name</label>
+<input type="text" placeholder="Enter your name" id="Name">
+<br><br>
+<label for="email">Email address</label>
+<input type="email" placeholder="enter your email" id="email">
+<br><br>
+<label for="age">user Age</label>
+<input type="number" placeholder="enter your age" id="age">
+<br><br>
+<label for="password">password</label>
+<input type="password" placeholder="enter your password" id="password">
+<br><br>
+<label for="confirm_password">confirm password</label>
+<input type="password" placeholder="confirm your password" id="confirm_password">
+<br><br>
+<label for="date">Date of birth</label>
+<input type="data" placeholder="enter your DOB" id="data">
+<br><br>
+<label for="time">time</label>
+<input type="time" placeholder="time" id="time">
+
+<br><br>
+<label for="color">color</label>
+<input type="color" placeholder="color" id="color">
+<br><br>
+<label for="file">file</label>
+<input type="file" placeholder="enter your file" id="file">
+<br><br>
+<button type="submit">submit</button>
+    </form>
+    </aside>
+   </div>
+   <div class="footer">
+    <h1>footer</h1>
+   </div>
+</body>
+</html>

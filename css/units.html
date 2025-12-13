@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>units</title>
+    <style>
+        h1{
+            font-size: 20mm;
+        }
+        .unit-mm{
+            color: aqua;
+            font-size: 20mm;
+        }
+        .unit-cm{
+            color: brown;
+            font-size: 1cm;
+        }
+        .unit-quarter{
+            font-size: 50q;
+        }
+        .unit-em
+        {
+            font-size: 10em;
+        }
+        .unit-rem{
+            font-size: 10rem;
+        }
+        .unit-vw{
+            font-size: 10vw;
+            color: blue;
+        }
+        .unit-vh{
+            font-size: 10vh;
+            color: blueviolet;
+        }
+        .unit-percent{
+            font-size: 70%;
+            color: chartreuse;
+        }
+
+        div section p{
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+       <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nemo.</h1>
+    <h1 class="unit-mm"> Font size 5mm </h1>
+    <h1 class="unit-cm"> Font size 1cm </h1>
+    <h1 class="unit-inch"> Font size 0.5inch </h1>
+    <h1 class="unit-quarter"> Font size 40Q </h1>
+     <h1 class="unit-em">Font size 2em </h1>
+    <h1 class="unit-rem">Font size 1.5rem </h1>
+    <h1 class="unit-vw">Font size 5vw </h1>
+    <h1 class="unit-vh">Font size 5vh </h1>
+    <h1 class="unit-percent">Font size 150% </h1>
+    <p id="para">Lorem ipsum dolor sit amet.</p>
+
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <h2>Pseudo-class</h2>
+     <div>
+        <p>
+            This paragraph is inside a div and
+            will be blue.
+        </p>
+
+        <section>
+            <p>
+                This paragraph is inside a
+                section which is inside a div
+                and will not be blue as this
+                is not direct child
+            </p>
+        </section>
+    </div>
+    <p>
+        This paragraph is outside the div
+        and will not be blue.
+    </p>
+</body>
+</html>

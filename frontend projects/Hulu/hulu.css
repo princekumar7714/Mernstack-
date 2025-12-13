@@ -1,0 +1,473 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+/* <!-- header section start here --> */
+
+.profileimg {
+  background-image: url("./images/header.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  text-align: center;
+  top: 0px;
+  
+}
+
+#log-in {
+  float: right;
+  margin-top: 15px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.content {
+  margin-top: 100px;
+}
+.free {
+  color: #69f08f;
+  font-size: 22px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.huluimg {
+  height: 180px;
+  background-image: url("./images/logo.png");
+  background-position: center;
+  background-size: cover;
+  margin-left: 33%;
+  width: 39%;
+  margin-top: 30px;
+}
+.movies {
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  font-size: 24px;
+  margin-left: 30px;
+}
+.hbo {
+  margin-top: 13px;
+  letter-spacing: 3px;
+  font-size: 26px;
+}
+.profileimg button {
+  height: 50px;
+  width: 300px;
+  color: black;
+  border-radius: 8px;
+  border: none;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 10px;
+  transition: all ease-in-out 0.5s;
+}
+.profileimg button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.free2 {
+  margin-top: 10px;
+  font-size: 11px;
+}
+/* <!-- header section end here --> */
+/* <!-- bunddle section start here  --> */
+
+.bundle{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: #0D3640;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* .bundle1 {
+
+
+    height: 130px;
+    width: 420px;
+    margin-left: 30px;
+    margin-top: 30px;
+} */
+.bundle1 img{
+    height: 120px;
+    width: 400px;
+}
+.bundle2{
+    text-align: center;
+}
+.bundle-center-text-1{
+    color: #00ed82;
+    font-weight: bolder;
+    font-size: 18px;
+    /* margin-left: 50px; */
+}
+.bundle-center-text-2{
+    letter-spacing: 5px;
+    font-size: 22px;
+    /* margin-right: 60px; */
+    margin-top: 5px;
+}
+.bundle-center-text-3{
+    margin-top: 6px;
+}
+.bundle3{
+    text-align: center;
+}
+.bundle3 button{
+    height: 60px;
+    width: 270px;
+    border: 2px solid white;
+    color: white;
+    background-color: #0D3640;
+}
+.Terms{
+  margin-top: 10px;
+}
+/* <!-- bunddle section end  here  --> */
+
+/* Plans Section Start */
+.plans-section {
+    /* border: 2px solid red; */
+
+    background-color: #000000;
+}
+
+.plans-content {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plans-text-1 {
+    margin-top: 70px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.plans-text-2 {
+    font-size: 65px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.plans-text-3 {
+    font-size: 25px;
+    max-width: 960px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.plans-cards {
+    /* border: 2px solid blue; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    gap: 20px;
+
+}
+
+.card-1 {
+    background-image: url("../images/cover-1.jpg");
+}
+
+.card-2 {
+    background-image: url("../images/cover-2.jpg");
+}
+
+.card-3 {
+    background-image: url("../images/cover-3.jpg");
+}
+
+.card-4 {
+    background-image: url("../images/cover-4.jpg");
+}
+
+.card {
+    /* border: 2px solid yellow; */
+    height: 82vh;
+    width: 22vw;
+    /* background-image: url("../images/cover-1.jpg"); */
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    margin-bottom: 110px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border: 1px solid #00ed82;
+    box-shadow: rgba(202, 202, 202, 0.24) 0px 3px 8px;
+}
+
+.card-text-1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text-2 {
+    color: #00ed82;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Plans Section End */
+/* Live Section Start */
+.live-section {
+    padding: 40px;
+    background-color: #000000;
+}
+
+.live-border {
+    border: 5px solid #00ed82;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+
+}
+
+.live-text-1 {
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.live-text-2 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.live-text-3 {
+    color: #ffffff;
+    font-size: 23px;
+    max-width: 920px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 1.9;
+    font-weight: bold;
+}
+
+.live-text-4 {
+    font-size: 11px;
+    color: #cfcdcd;
+    margin-top: 30px;
+}
+
+.live-text-5 {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.live-text-5 a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Live Section End */
+
+/* Sport Section Start */
+.live-sports {
+    background-image: url("../images/live-sports.jpg");
+    padding: 120px 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.sports-width {
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.sports-text-1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.sports-text-2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.sports-logo {
+    display: flex;
+}
+
+.logo {
+    background-image: url("../images/network-logo-bg.png");
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.logo img {
+    width: 60%;
+}
+
+.sports-text-3{
+    font-size: 12px;
+    color: #cfcdcd;
+    margin-top: 30px;
+}
+/* Sport Section End */
+
+/* Footer Section Start */
+.footer{
+    padding: 30px 140px;
+    background-color: #f0eeee;
+}
+
+.footer-links{
+    /* border: 2px solid red; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.list{
+    margin-right: 10px;
+}
+
+.list-head{
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+.list li{
+    list-style-type: none;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.list li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-bar{
+    border-top: 1px solid #cfcdcd;
+    margin-top: 20px;
+}
+
+.footer-icons{
+    margin-top: 20px;
+
+}
+
+.fa-brands{
+    font-size: 25px;
+    margin-right: 10px;
+    color: #7a7777;
+    transition: all 0.3s ease;
+}
+
+.fa-brands:hover{
+    color: #000000;
+}
+/* Footer Section End */
+
+/* Form Body Section Start */
+.form-body{
+    /* border: 2px solid red; */
+    width: 35%;
+    position: absolute;
+    top: 0px;
+    background-color: #ffffff;
+    padding: 60px 80px;
+    height: 100vh;
+    display: none;
+}
+
+.fa-solid{
+    float: right;
+    font-size: 30px;
+    color: #000000;
+    position: relative;
+    top: -40px;
+    left: 60px;
+    cursor: pointer;
+}
+
+.form-text-1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.form-body form{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-body form label{
+    color: #000000;
+}
+
+.form-body form input{
+    margin: 10px 0px;
+    padding: 20px 80px;
+    border: 1px solid #00ed82;
+    border-radius: 5px;
+}
+
+.form-text-2{
+    margin-top: 10px;
+}
+
+.form-text-2 a{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+
+.form-body button{
+    margin-top: 30px;
+    padding: 20px 120px;
+    font-size: 20px;
+    background-color: #000000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-text-3{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-text-3 a{
+    color: blue;
+}
+/* Form Body Section End */

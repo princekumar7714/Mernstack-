@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+}
+.upper{
+    background-color: brown;
+    height:200px;
+    width: 100%;
+    margin: 5px;
+}
+.center-box{
+    height: 200px;
+    background-color: blue;
+    width: 33.1%;
+    display: inline-block;
+}
+ .botton{
+    /* background-color: crimson; */
+/* height: 150px;
+width: 100%; */
+margin: 5px;
+} 
+.bottom-box{
+    background-color: aqua;
+    height: 200px;
+    width: 49%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 800px){
+    .center-box{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .bottom-box{
+        width: 100%;
+    }
+}

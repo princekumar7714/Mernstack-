@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- form element -->
+     <fieldset>
+        <legend>
+            form element
+        </legend>
+        <form action="">
+            <input type="text"><br>
+            <input type="number"> <br>
+            <input type="color"> <br>
+            <input type="time"> <br>
+            <input type="date"> <br>
+            <input type="checkbox"> <br>
+            <input type="radio"> <br>
+            <input type="email"> <br>
+            <input type="password"> <br>
+            <input type="file"> <br>
+            <input type="url"> <br>
+            <input type="image"> <br>
+            <input type="month"> <br>
+            <input type="week"> <br>
+            <input type="search">search <br>
+            <input type="submit"> <br>
+            <select name="select" id="name">
+                <option value="1">math</option>
+                <option value="2">js</option>
+                <option value="3">sql</option>
+            </select>
+            <select name="select" id="name" multiple>
+                <option value="1">maths</option>
+                <option value="2">js</option>
+                <option value="3">java</option>
+            </select>
+         </form>
+     </fieldset>
+        <form action="">
+            <input type="text" list="values">
+            <input type="text" list="values">
+            <datalist id="values">
+                <option value="maths">Math</option>
+                <option value="python">Python</option>
+                <option value="django">Django</option>
+                <option value="html">Hml</option>
+                <option value="css">Css</option>
+            </datalist>
+            <input type="time" list="hours">
+            <datalist id='hours'>
+                <option value="08:00"></option>
+                <option value="10:00"></option>
+                <option value="12:00"></option>
+            </datalist>
+        </form>
+           
+        <form oninput="add.value = parseInt(n1.value) + parseInt(n2.value)">
+            <input type="range" min="0" max="100" name='n1' value="10">
+            <input type="number" name='n2' value="20">
+            <br> Output: <output name='add'></output>
+        </form> 
+        
+        <form oninput="add.value = (parseInt(n1.value) + parseInt(n2.value))/2">
+            <input type="number" name='n1' value="20">
+            <input type="number" name='n2' value="20">
+            <br> Average Output: <output name='add'></output>
+        </form> 
+
+         
+        <form action="" autocomplete="on">
+            <select name="fruits" id="" >
+                <option value="">Choose a fruit</option>
+                <optgroup label="Languages">
+                    <option value="apple">Apple</option>
+                    <option value="banana">Banana</option>
+                    <option value="orange">Orange</option>
+                    <option value="grapes">Grapes</option>
+                </optgroup>
+                <optgroup label="Fruits" disabled>
+                    <option value="apple">Apple</option>
+                    <option value="banana">Banana</option>
+                    <option value="orange">Orange</option>
+                    <option value="grapes">Grapes</option>
+                </optgroup>
+                <optgroup label="Vegetables">
+                    <option value="potato">Potato</option>
+                    <option value="tomato">Tomato</option>
+                    <option value="carrot">Carrot</option>
+                    <option value="spinach">Spinach</option>
+                </optgroup>
+                <optgroup label="electronics" dir="rtl">
+                        <option value="iphone">Iphone</option>
+                        <option value="samsung">Samsung</option>
+                        <option value="redmi">Redmi</option>
+                        <option value="vivo">Vivo</option>
+                </optgroup>
+            </select>
+            <textarea name="textarea" id="textarea" rows="10" cols="20">hello</textarea>
+        </form>
+    </fieldset> 
+ 
+     <form action="">
+        <input type="range" min="0" max="200"  step="50"  >
+        <input type="text" name="username" id="user" value="alexa" placeholder="Enter Your Name" maxlength="10" disabled >
+        <video width="200" height="300" controls poster="https://images.pexels.com/photos/326050/pexels-photo-326050.jpeg">
+            <source src="https://cdn.pixabay.com/video/2025/06/09/284568_tiny.mp4">
+        </video>
+    </form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Navbar with Long Search Box</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-logo">MySite</div>
+
+    <form class="navbar-search">
+      <input type="text" placeholder="Search for something long and descriptive..." />
+      <button type="submit">Search</button>
+    </form>
+
+    <div class="navbar-menu">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+
+</body>
+</html>
+
+</body>
+</html>

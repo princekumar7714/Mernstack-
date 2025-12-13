@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    height: 400px;
+    /* border: 1px solid black; */
+    justify-content: space-evenly;
+    margin-right: 30px;
+    padding-right: 30px;
+}
+
+.card-img-top{
+    background-image: url("https://media.istockphoto.com/id/1302816443/photo/qutub-minar-the-tallest-minaret-of-india.jpg?s=612x612&w=0&k=20&c=f1tbxttL5gNdph3nU-wdZ631WTs7yjng6LXbWmJrK2s=");
+    height: 220px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+       margin-right: 30px;
+}
+.card-img-top1{
+    background-image: url("https://media.istockphoto.com/id/1455552376/photo/brihadishwara-temple-tanjore.jpg?s=1024x1024&w=is&k=20&c=u0JJKnXIYEIbRfPQaE1EfHdq7StSWfikCoCy3QawWIs=");
+    height: 220px;
+    width: 100%;
+    background-position: center;
+       margin-right: 30px;
+    background-size: cover;
+}
+.card-img-top2{
+    background-image: url("https://cdn.pixabay.com/photo/2025/03/31/21/30/italy-9505450_1280.jpg");
+    height: 220px;
+    width: 100%;
+       margin-right: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+.main2{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    height: 400px;
+    /* border: 1px solid black; */
+    justify-content: space-evenly;
+    margin-right: 30px;
+    padding-right: 30px;
+    /* margin: 10px; */
+}
+
+.card-img-top4{
+    background-image: url("https://cdn.pixabay.com/photo/2019/04/07/07/52/taj-mahal-4109110_640.jpg");
+    height: 220px;
+    width: 100%;
+       margin-right: 30px;
+    background-position: center;
+    background-size: cover;
+}
+.card-img-top5{
+    background-image: url("https://cdn.pixabay.com/photo/2014/07/20/16/08/golden-temple-397886_1280.jpg");
+    height: 220px;
+    width: 100%;
+       margin-right: 30px;
+    background-position: center;
+    background-size: cover;
+}
+.card-img-top6{
+    background-image: url("https://media.istockphoto.com/id/510795912/photo/india-gate.jpg?s=1024x1024&w=is&k=20&c=W8jlCXCjFF-4i7GQXvK683v4TtF68wACy_y5jAekK3A=");
+    height: 220px;
+    width: 100%;
+       margin-right: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* // about place section start  */
+
+.aboutplace{
+    height: 600px;
+    margin-left: 110px;
+    margin-top: 20px;
+    width: 80%;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.india{
+    color: crimson;
+    
+}
+
+.register{
+    margin-top: 30px;
+     text-align: center;
+     /* border: 1px solid black; */
+
+}
+
+.input-group {
+width: 70%;
+  margin-left: 170px;
+
+}
+.form-control{
+    width: 70%;
+    color: black;
+    margin-left: 150px;
+}
+.registration-btn{
+    margin-top: 8px;
+    width: 25%;
+    height: 40px;
+    margin-left: 510px;
+    border-radius: 5px;
+}
+
+.registration-btn:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.486);
+}

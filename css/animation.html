@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* .box{
+            height: 150px;
+            width: 150px;
+            background-color: aqua;
+            text-align: center;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-delay: 1s;
+        } */
+      .box{
+        height: 150px;
+        width: 150px;
+        background-color: aqua;
+        text-align: center;
+        animation-name: move;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        /* animation-iteration-count: infinite; */
+        /* animation-direction: alternate-reverse; */
+        animation-delay: 1s;
+        animation-direction: reverse;
+        position: relative;
+      }
+      /* syntex */
+      /* @keyframes example{
+    from{background-color:aqua;}
+    to{background-color:yellow;}
+} */
+
+      /* @keyframes example{
+    0%{background-color: aqua;}
+    25%{background-color: #fff;}
+    50%{background-color: darkblue;}
+    75%{background-color: black;}
+    100%{background-color: chocolate;}
+} */
+      @keyframes move {
+        from {
+          left: 0px;
+          background-color: darkred;
+        }
+        to {
+          left: 500px;
+          background-color: darkslateblue;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">box</div>
+  </body>
+</html>

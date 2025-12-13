@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Bakery{
+    height: 550px;
+    width: 100%;
+    /* border: 1px solid rgb(163, 31, 31); */
+    background-color: rgb(197, 115, 15);
+    background-image: url("https://cdn.pixabay.com/photo/2016/04/14/20/15/muffins-1329679_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* navbar start  */
+.navbar{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.left-logo{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid black; */
+    background-image: url("https://cdn.pixabay.com/photo/2025/02/23/17/49/ai-generated-9426385_960_720.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+ .right-content ul{
+    justify-content: space-around;
+    display: flex;
+    height: 100px;
+    width: 100%;
+ }
+ .right-content ul li{
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding: 20px;
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ .right-content ul li:hover{
+    color: darkred;
+ }
+
+ /* mid content start here  */
+
+ .mid-content{
+    height: 200px;
+    width: 100%;
+    color: black;
+    /* border: 1px solid black; */
+    margin-top: 110px;
+    text-align: center;
+ }
+ .Welcome{
+    margin-top: 5px;
+ }
+ .Family{
+    margin-top: 7px;
+ }
+ .big{
+    margin-top: 7px;
+ }
+ .btn{
+    margin-top: 10px;
+ }
+ .learn{
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0, 0.8);
+    width: 70px;
+ }
+ .contact-us{
+    height: 40px;
+    border-radius: 5px;
+    width: 70px;
+ }
+ .learn:hover{
+    background-color: rgb(170, 87, 87);
+ }
+ .contact-us:hover{
+    background-color: rgb(170, 69, 69);
+ }
+
+ /* info section start  */
+
+ .info{
+    margin-top: 30px;
+    height: 300px;
+    width: 95%;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-left: 40px;
+
+ }
+ .img1{
+    height: 290px;
+    width: 300px;
+    margin-left: 20px;
+    background-image: url("https://cdn.pixabay.com/photo/2014/10/19/20/59/hamburger-494706_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+ }
+ .details{
+    margin-left: 30px;
+    margin-top: 5px;
+ }
+ 
+ .who{
+   margin-top: 10px;
+   margin-left: 90px;
+ }
+
+ .info2{
+   margin-top: 10px;
+   margin-left: 90px;
+ }
+ .care{
+     margin-top: 10px;
+   margin-left: 90px; 
+ }
+ .trust{
+      margin-top: 10px;
+   margin-left: 90px; 
+ }
+ .media{
+      margin-top: 10px;
+   margin-left: 90px; 
+ }
+
+ .list{
+     margin-top: 10px;
+   margin-left: 90px; 
+ }
+
+ .loaction-site{
+   height: 300px;
+   width: 95%;
+   /* border: 1px solid red; */
+   margin-left: 30px;
+   display: flex;
+   margin-top: 20px;
+ }
+ .loaction1{
+   margin-top: 20px;
+   margin-left: 50px;
+ }
+ .year{
+ margin-top: 20px;
+ font-family:sans-serif ;
+   margin-left: 50px;
+ }
+ .para5{
+    margin-top: 20px;
+    font-family:sans-serif ;
+   margin-left: 50px;
+ }
+  .img-location{
+   height: 280px;
+   width: 30%;
+   background-image: url("https://cdn.pixabay.com/photo/2017/09/14/14/33/cupcake-2749204_1280.jpg");
+   background-position: center;
+   background-size: cover;
+  }
+
+  .booking{
+   margin-top: 10px;
+   text-align: center;
+   height: 40px;
+   width: 100%;
+  }
+  .worked{
+   margin-top: 5px;
+   color: rgba(0, 0, 0, 0.63);
+  }
+  .items{
+   display: flex;
+   margin-top: 70px;
+  }
+
+  .img1-content{
+   height: 400px;
+   width: 33%;
+   /* border: 1px solid rebeccapurple; */
+   text-align: center;
+  }
+  .img2-content{
+      height: 400px;
+   width: 33%;
+   margin-left: 5px;
+   /* border: 1px solid rebeccapurple; */
+   text-align: center;
+  }
+
+  .img3-content{
+     height: 400px;
+   width: 33%;
+     margin-left: 5px;
+   /* border: 1px solid rebeccapurple; */
+   text-align: center;
+  }
+  .img5{
+   height: 300px;
+   width: 330px;
+   background-image: url("https://cdn.pixabay.com/photo/2023/07/20/11/00/muffin-8139065_1280.jpg");
+   background-size: cover;
+   background-size: cover;
+   margin-left: 45px;
+  }
+  .img6{
+   height: 300px;
+   width: 330px;
+   margin-left: 45px;
+   background-image: url("https://cdn.pixabay.com/photo/2022/02/22/11/00/pate-7028475_1280.jpg");
+   background-size: cover;
+   background-size: cover;
+  }
+  .img7{
+   height: 300px;
+   margin-left: 45px;
+   width: 330px;
+   background-image: url("https://cdn.pixabay.com/photo/2017/03/26/11/53/hors-doeuvre-2175326_960_720.jpg");
+   background-size: cover;
+   background-size: cover;
+  }
+
+   .bak{
+   margin-top: 10px;
+   margin-left: 30px;
+  } 
+  .bak1{
+   margin-top: 10px;
+   margin-left: 40px;
+  }
+  .bak2{
+   margin-top: 10px;
+   margin-left: 30px;
+  }
+  .lect{
+   margin-top: 10px;
+   margin-left: 30px;
+  }
+  
+  .loction1{
+   height: 400px;
+   width: 100%;
+   margin-top: 50px;
+   /* border: 1px solid black; */
+   display: flex;
+   justify-content: space-evenly;
+  }
+  .left-location{
+   height: 380px;
+   width: 40%;
+    /* border: 1px solid black; */
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+
+  .loacte1{
+   margin-top: 5px;
+   margin-left: 5px;
+  }
+   .loacte2{
+   margin-top: 5px;
+   margin-left: 5px;
+  }
+   .loacte3{
+   margin-top: 10px;
+   margin-left: 5px;
+  }
+   .loacte4{
+   margin-top: 10px;
+   margin-left: 5px;
+  }
+   .loacte5{
+   margin-top: 10px;
+   margin-left: 5px;
+  }
+   .loacte6{
+   margin-top: 10px;
+   margin-left: 5px;
+  }
+
+  .right-location{
+   height: 350px;
+   width: 48%;
+   /* border: 1px solid black; */
+   background-image: url("https://static.squareyards.com/localitymap-thumnail/sector-62-noida.png");
+   background-position: center;
+   background-size: cover;
+  }
+
+  .bottom{
+   height: 350px;
+   width: 100%;
+   border: 1px solud black;
+   background-color: rgba(30, 30, 121, 0.699);
+   display: flex;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: white;
+  }
+
+  .about1{
+   height: 300px;
+   width: 24%;
+   margin-top: 30px;
+   margin-left: 30px;
+   padding: 5px;
+  }
+
+   .about1 h2{
+   margin-top: 5px;
+  }
+  .about1 p{
+   margin-top: 10px;
+  }
+
+  .special{
+   height: 300px;
+   width: 24%;
+   margin-top: 30px;
+   margin-left: 30px;
+   padding: 5px;
+  }
+  .special h2{
+   margin-top: 5px;
+  }
+  .special h5{
+   margin-top: 10px;
+  }
+  .hours{
+    height: 300px;
+   width: 24%;
+   margin-top: 30px;
+   margin-left: 30px;
+   padding: 5px;
+  }
+
+  .hours h2{
+   margin-top: 5px;
+  }
+
+  .hours h5{
+   margin-top: 10px;
+  }
+  .contact1{
+     height: 300px;
+   width: 24%;
+   margin-top: 30px;
+   margin-left: 20px;
+   padding: 5px;
+   margin-right: 40px;
+  }
+  .contact1 h2{
+   margin-top: 5px;
+
+  }
+  .contact1 h5{
+   margin-top: 10px;
+  }
+  .footer{
+   height: 70px;
+   width: 100%;
+   /* margin-bottom: 30px; */
+   /* border: 1px solid black; */
+   text-align: center;
+   /* align-items: center; */
+   background-color: rgba(0, 0, 0, 0.788);
+   color: white;
+  }
+
+  /* .imgfoot{
+   height: 120px;
+   width: 25%;
+   margin-left: 450px;
+   /* margin-top: 10px; */
+   /* background-image: url("https://cdn.pixabay.com/photo/2025/02/23/17/49/ai-generated-9426385_960_720.png");
+   background-position: center;
+   background-size: cover; */
+  /* } */ */
+
+  .company{
+    margin-left: 450px;
+    margin-top: 15px;
+    color: white;
+  }
+  .Terms{
+    /* margin-left: 450px; */
+    margin-top: 8px;
+    color: white;
+  }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: aqua;
+         }
+         /* element selector */
+         h1{
+            color: blue;
+            font-size: 30px;
+         }
+
+         /* group selector */
+         h1,h3,div{
+            color: brown;
+         }
+         /* id selector */
+         #myspan{
+            border: 2px solid black;
+         }
+
+         /* class selector */
+         .head1{
+            color: chocolate;
+            background-color: chartreuse;
+         }
+
+         /* attribute slector */
+         img[src]{
+            height: 100px;
+            width: 300px;
+            }
+            a[href]{
+                display: flex;
+                background-color: crimson;
+            }
+
+            .head1, .head2, .head3{
+border: 2px solid orangered;
+            }
+
+            #myspan, #mysmall{
+                color: darkgreen;
+            }
+            p::before{
+                content: "-**";
+            }
+            p:hover{
+                background-color: red;
+            }
+    </style>
+</head>
+<body>
+    <a href="" title="Home page">Home</a>
+    <a href="">contact</a>
+    <a href="">add</a>
+    <img src="images/my intro.jpg" alt="">
+    <h1 class="head1 myhead myhead2 myhead3">working with css</h1>
+    <div>Lorem ipsum dolor sit amet.</div>
+    <h3 class="head1">types of selectors</h3>
+    <h3 class="head2"> universal selectors</h3>
+    <h3 class="head3">element selectors</h3>
+    <h3>group selector</h3>
+    <h3>id selector</h3>
+    <h3>class selector</h3>
+    <h3>attribute selector</h3>
+
+    <p>working with id</p>
+    <span id="myspan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quis magni. Omnis?</span>
+    <small id="mysmall">Lorem, ipsum.</small>
+</body>
+</html>

@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul{
+    display: flex;
+    color: blueviolet;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+}
+
+.navbar ul li:hover{
+    background-color: rebeccapurple;
+    color: azure;
+    padding: 10px;
+}
+
+body{
+    background-color: lightblue;
+}

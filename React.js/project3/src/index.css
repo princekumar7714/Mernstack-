@@ -1,0 +1,68 @@
+/* .box{
+    border: 2px solid red;
+    background-color: tomato;
+    margin-top: 5px;
+} */
+
+.navbar{
+    /* border: 2px solid red; */
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    cursor: pointer; 
+    font-weight: bold;
+
+}
+.home h1{
+text-align: center;
+background-color: yellow;
+padding: 20px;
+}
+
+.home p{
+    border: 2px solid red;
+    background-color: rgb(6, 70, 76);
+    padding: 50px;
+    color: steelblue;
+
+}
+.about h1{
+text-align: center;
+background-color: rgb(255, 0, 89);
+padding: 20px;
+}
+
+.about p{
+    border: 2px solid red;
+    background-color: violet;
+    padding: 50px;
+    color: steelblue;
+
+}
+.service h1{
+text-align: center;
+background-color: rgb(255, 187, 0);
+padding: 20px;
+}
+
+.service p{
+    border: 2px solid red;
+    background-color: rgba(130, 238, 229, 0.245);
+    padding: 50px;
+    color: steelblue;
+
+}
+.contact h1{
+text-align: center;
+background-color: rgba(255, 115, 0, 0.597);
+padding: 20px;
+}
+
+.contact p{
+    border: 2px solid red;
+    background-color: rgb(222, 238, 130);
+    padding: 50px;
+    color: steelblue;
+
+}

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color:  #34495e;
+    border: 1px solid black;
+    display: flex;
+    
+}
+
+.left {
+     color: rgb(16, 161, 137);
+    font-weight: bold;
+    /* margin-right: 20px; */
+    margin-left: 20px;
+    margin-top: 10px;
+    /* width: 30%; */
+}
+.right{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-left: 640px;
+    margin-top: 10px;
+    
+}
+.right ul li{
+    display: flex;
+    display: inline;
+    margin: 18px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: white;
+    /* margin-bottom: 5px; */
+}
+.right ul li:hover{
+    color: chocolate;
+    padding: 2px;
+}
+
+/* navbar end here  */
+ /* main section start here  */
+ .main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+ }
+ .left-sec{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 48%;
+    color: rgba(0, 0, 0, 0.719);
+    height: 300px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* background-color: rgb(150, 127, 255); */
+    font-family:Arial, Helvetica, sans-serif;
+    /* border: 1px solid magenta; */
+ }
+ .first{
+    margin-top: 20px;
+    margin-left: 10px;
+ }
+ .name{
+    color: #34495e;
+    margin-top: 5px;
+    margin-left: 10px;
+ }
+ .passion{
+      margin-top: 20px;
+    margin-left: 10px;
+ }
+ .para{
+   margin-top: 15px;
+    margin-left: 10px;  
+    font-size: small;
+ }
+
+ .right-sec{
+     margin-top: 20px;
+     /* background-image: url("view-source:https://www.instagram.com/p/DGDqxeazqc7/?img_index=1"); */
+    margin-left: 30px;
+    width: 35%;
+    color: white;
+    height: 300px;
+    /* align-content: center; */
+    text-align: center;
+    /* background-color: rgb(150, 127, 255); */
+    font-family:Arial, Helvetica, sans-serif;
+    /* border: 1px solid magenta; */
+
+ }
+
+ .hor1{
+    width: 80%;
+    height: 3px;
+    color: black;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-left: 50px;
+ }
+ .aboutme{
+    margin-top: 20px;
+ }
+
+ .me{
+    margin-left: 500px;
+ }
+ .para3{
+    margin-left: 120px;
+    margin-top: 10px;
+    /* margin-right: 20px; */
+ }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            padding: 10px;
+            text-align: center;
+            background-color: aqua;
+        }
+        .navbar{
+            background-color: cadetblue;
+            padding: 5px;
+        }
+        .navbar li{
+            list-style: none;
+            display: inline-block;
+            padding: 8px;
+        }
+        .navbar a{
+            color: antiquewhite;
+        }
+        .navbar ul li a:hover{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .lside{
+            
+             float: left;  
+               width: 80%;  
+               min-height: 440px;  
+               background-color: #f0f8ff;  
+               text-align: center;  
+        }
+        .rside{
+             text-align: center;  
+            float: right;  
+            width: 20%;  
+              min-height: 440px;  
+             background-color:  #c1cdcd;  
+        }
+        .footer{
+            background-color: darkolivegreen;
+            height: 44px;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <h2>working with javascript</h2>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ADDRESS</a></li>
+                <li><a href="#">NAME</a></li>
+                <li><a href="#">AGE</a></li>
+                <li style="float: right;"><a href="">LOGIN</a></li>
+                <li style="float: right;"><a href="">DETAILS</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- main -->
+     <div style="height: 440px;">
+<div class="lside">
+<p>this is your content</p>
+</div>
+<div class="rside">
+   <ul style="list-style: none;">
+     <li>name</li>
+    <li>age</li>
+    <li>post</li>
+   </ul>
+</div>
+     </div>
+
+     <!-- footer -->
+      <div class="footer">
+        <p><strong>this is footer</strong></p>
+      </div>
+</body>
+</html> 

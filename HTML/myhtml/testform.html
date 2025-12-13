@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <fieldset>
+        <legend>form element</legend>
+    <form action="">
+        <label for="name">Name</label>
+        <input type="text" placeholder="name" id="name" required>
+        <input type="number" placeholder="number" required>
+        <input type="color" placeholder="color" required>
+        <input type="date" placeholder="date" required>
+        <input type="time" placeholder="time" required>
+        <input type="week" placeholder="week" required>
+        <input type="month" placeholder="month" required>
+        <input type="file" placeholder="file" required>
+        <input type="search" placeholder="search" required>
+        <input type="checkbox" placeholder="checkbox" required>
+        <input type="radio" placeholder="radio" required>
+        <input type="email" placeholder="email" required>
+        <input type="image" placeholder="image" required>
+        <input type="url" placeholder="url" required>
+
+        <select name="name" id="name">
+            <option value="1">js</option>
+            <option value="2">java</option>
+            <option value="3">neet</option>
+            <option value="4">sql</option>
+
+        </select>
+        
+          <select name="name" id="name" multiple>
+            <option value="1">js</option>
+            <option value="2">java</option>
+            <option value="3">neet</option>
+            <option value="4">sql</option>
+
+        </select>
+        <button id="button">submit</button>
+
+    </form>
+    </fieldset>
+    <form action="">
+        <input type="text " list="values">
+        <input type="text " list="values">
+        <datalist id="values">
+            <option value="java">java</option>
+            <option value="neet">Neet</option>
+            <option value="js">JS</option>
+            <option value="sql">Sql</option>
+
+        </datalist>
+         <input type="time" list="hours">
+            <datalist id='hours'>
+                <option value="08:00"></option>
+                <option value="10:00"></option>
+                <option value="12:00"></option>
+            </datalist>
+
+    </form>
+    <!-- for range tags -->
+    <form oninput="add.value = parseInt(n1.value) + parseInt(n2.value)">
+        <input type="range" min="10" max="100" name="n1" value="10">
+        <input type="number" name='n2' value="20">
+        <br> Output: <output name='add'></output>
+    </form>
+
+    <form oninput="add.value = parseInt(n1.value) + parseInt(n2.value)/2">
+        <input type="range" min="10" max="200" name="n1" value="20">
+        <input type="number" name="n2" value="20">
+        <br>  averge output: <output name="add"></output>
+    </form>
+
+     <form action="" autocomplete="on">
+            <select name="fruits" id="" >
+                <option value="">Choose a fruit</option>
+                <optgroup label="Languages">
+                    <option value="apple">Apple</option>
+                    <option value="banana">Banana</option>
+                    <option value="orange">Orange</option>
+                    <option value="grapes">Grapes</option>
+                </optgroup>
+                <optgroup label="Fruits" disabled>
+                    <option value="apple">Apple</option>
+                    <option value="banana">Banana</option>
+                    <option value="orange">Orange</option>
+                    <option value="grapes">Grapes</option>
+                </optgroup>
+                <optgroup label="Vegetables">
+                    <option value="potato">Potato</option>
+                    <option value="tomato">Tomato</option>
+                    <option value="carrot">Carrot</option>
+                    <option value="spinach">Spinach</option>
+                </optgroup>
+                <optgroup label="electronics" dir="rtl">
+                        <option value="iphone">Iphone</option>
+                        <option value="samsung">Samsung</option>
+                        <option value="redmi">Redmi</option>
+                        <option value="vivo">Vivo</option>
+                </optgroup>
+            </select>
+            <textarea name="textarea" id="textarea" rows="10" cols="20">hello</textarea>
+        </form>
+    </fieldset> 
+ 
+    <form action="">
+        <input type="range" min="20" max="300" step="30">
+          <input type="text" name="username" id="user" value="alexa" placeholder="Enter Your Name" maxlength="10" disabled >
+         <video width="640" height="360" controls>
+  
+  <source src="https://pixabay.com/videos/woman-young-skater-skate-275498/" type="video/ogg">
+  <!-- Your browser does not support the video tag. -->
+</video>
+        </form>
+
+          <!-- Start of the form element -->
+ <legend>
+       <form action="" method="post">
+        <!-- Form controls -->
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required />
+        <br><br>
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required />
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+ </legend>
+    <!-- Start of the form element -->
+   <form action = "https://www.tutorialspoint.com" method = "post">
+      <!-- to take input -->
+      Name: <input type = "text" name = "your_name" required/>
+      <br><br>
+      Email: <input type = "email" name = "mail" required/>
+      <br><br>
+       <!-- to submit the data -->
+      <input type = "submit">
+   </form>
+
+    <!-- Start of the form element -->
+   <form action = "https://www.tutorialspoint.com" target = "_blank" autocomplete="off" method = "get" novalidate>
+      <!-- to take input -->
+      Name: <input type = "text" name = "your_name" required/>
+      <br><br>
+      Email: <input type = "email" name = "mail" required/>
+      <br><br>
+       <!-- to submit the data -->
+      <input type = "submit">
+   </form>
+</body>
+</html>

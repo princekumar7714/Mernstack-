@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery | Swiggy Clone</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">Food<span>Hub</span></div>
+        <nav id="menu">
+            <a href="#">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Restaurants</a>
+            <a href="#" id="cart-btn">Cart 🛒 (<span id="cart-count">0</span>)</a>
+        </nav>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Order Your Favorite Food, Fast & Fresh</h1>
+            <p>Get delicious meals delivered from top restaurants near you.</p>
+            <a href="#products" class="btn">Order Now</a>
+        </div>
+        <img src="images/hero-food.png" class="hero-img" />
+    </section>
+
+
+    <!-- CATEGORIES -->
+    <section class="categories" id="categories">
+        <h2>Food Categories</h2>
+        <div class="cat-grid">
+            <div class="cat-card">🍕 Pizza</div>
+            <div class="cat-card">🍔 Burgers</div>
+            <div class="cat-card">🥗 Healthy</div>
+            <div class="cat-card">🍰 Dessert</div>
+        </div>
+    </section>
+
+
+    <!-- PRODUCTS -->
+    <section class="products" id="products">
+        <h2>Popular Restaurants</h2>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img src="images/burger.jpg" />
+                <h3>Big B Burger</h3>
+                <p>₹120 · Fast Food</p>
+                <button onclick="addToCart('Big B Burger', 120)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/pizza.jpg" />
+                <h3>Cheesy Pizza Hub</h3>
+                <p>₹250 · Italian</p>
+                <button onclick="addToCart('Cheesy Pizza Hub', 250)">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/biryani.jpg" />
+                <h3>Hyderabadi Biryani</h3>
+                <p>₹180 · Indian</p>
+                <button onclick="addToCart('Hyderabadi Biryani', 180)">Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CART SIDEBAR -->
+    <aside id="cart-sidebar">
+        <h3>Your Cart</h3>
+        <ul id="cart-items"></ul>
+        <p>Total: ₹<span id="cart-total">0</span></p>
+        <button id="close-cart">Close</button>
+    </aside>
+
+
+<script src="index.js"></script>
+</body>
+</html>

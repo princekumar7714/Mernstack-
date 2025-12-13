@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StepUp Shoes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="logo">Step<span>Up</span></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart" id="cart-icon">🛒 <span id="cart-count">0</span></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Step Up Your Style</h1>
+        <p>Discover premium sneakers for every occasion.</p>
+        <button>Shop Now</button>
+    </section>
+
+    <!-- Product Section -->
+    <section class="products">
+        <h2>Featured Shoes</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1606813902911-123cde0b3be0" alt="Sneaker">
+                <h3>AirWave Runner</h3>
+                <p>$120</p>
+                <button class="add-to-cart" data-name="AirWave Runner" data-price="120">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1528701800489-20beab2f7a5d" alt="Sneaker">
+                <h3>UrbanFlex</h3>
+                <p>$95</p>
+                <button class="add-to-cart" data-name="UrbanFlex" data-price="95">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1519744792095-2f2205e87b6f" alt="Sneaker">
+                <h3>Classic Street</h3>
+                <p>$110</p>
+                <button class="add-to-cart" data-name="Classic Street" data-price="110">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cart-modal">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p class="total">Total: $<span id="cart-total">0</span></p>
+        <button id="close-cart">Close</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
