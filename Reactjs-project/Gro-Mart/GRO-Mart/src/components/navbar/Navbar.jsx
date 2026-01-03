@@ -4,24 +4,28 @@ import { GiShoppingBag } from "react-icons/gi";
 import { IoIosSearch } from "react-icons/io";
 import { TbMenu2 } from "react-icons/tb";
 import { TbMenu3 } from "react-icons/tb";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [showmenu, setShowmenu] = useState(false);
   const [isScroll, setisScroll] = useState(false);
-  const togglemenu =()=>{
+  const togglemenu = () => {
     setShowmenu(!showmenu);
-  }
+  };
   useEffect(() => {
-      const  HandleScroll = () =>{
-        setisScroll(window.scrollY > 10)
-        window.addEventListener('scroll', HandleScroll);
-        return ()=> window.removeEventListener('scroll', HandleScroll)
-      }
-  }, [])
-  
+    const HandleScroll = () => {
+      setisScroll(window.scrollY > 10);
+      window.addEventListener("scroll", HandleScroll);
+      return () => window.removeEventListener("scroll", HandleScroll);
+    };
+  }, []);
+
   return (
-    <header className={`bg-white fixed top-0 right-0 left-0 z-50 ${isScroll ? "drop-shadow-[0_6px_15px_rgba(0,0,0,0.8)]" : ''}`}>
+    <header
+      className={`bg-white fixed top-0 right-0 left-0 z-50 ${
+        isScroll ? "shadow-[0_12px_35px_rgba(0,0,0,0.7)]" : ""
+      }`}
+    >
       <nav className=" max-w-315 mx-auto md:h-[14vh] h-[12vh] px-10 flex justify-between  items-center ">
         {/* logo  */}
         <Link to="/" className="text-3xl font-bold">
@@ -82,13 +86,21 @@ function Navbar() {
           <a href="#" className="text-zinc-800 text-2xl">
             <GiShoppingBag />
           </a>
-{/* hamburger */}
-          <a href="#" className="text-zinc-800 text-3xl md:hidden" onClick={togglemenu}>
-           {showmenu ?  <TbMenu3 /> : <TbMenu2/>}
+          {/* hamburger */}
+          <a
+            href="#"
+            className="text-zinc-800 text-3xl md:hidden"
+            onClick={togglemenu}
+          >
+            {showmenu ? <TbMenu3 /> : <TbMenu2 />}
           </a>
         </div>
         {/* mobile menu   */}
-        <ul className= {`flex flex-col gap-y-12 bg-orange-500/15 backdrop-blur-xl rounded-xl  items-center gap-x-15 md:hidden absolute top-30 -left-full transform -translate-x-1/2 transtion-all duration-500 ${ showmenu ? 'left-1/2' : ""} `}>
+        <ul
+          className={`flex flex-col gap-y-12 bg-orange-500/15 backdrop-blur-xl rounded-xl  items-center gap-x-15 md:hidden absolute top-30 -left-full transform -translate-x-1/2 transtion-all duration-500 ${
+            showmenu ? "left-1/2" : ""
+          } `}
+        >
           <li className="mt-4">
             <a href="#" className="font-semibold tracking-wide text-orange-500">
               About Us
